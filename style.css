@@ -1,0 +1,102 @@
+body {
+    background-color: #2E015C;
+}
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 1395px;
+    height: 913px;
+}
+
+.img_leaf1 {
+    position: absolute;
+	width: 30%;
+    height: 40%;
+	padding-left:2%;
+	margin-left: 75%;
+	margin-top: 2%;
+	padding-top: 5%;
+    background: url(img/leaf1.png);
+}
+
+.img_leaf2 {
+    position: absolute;
+	width: 25%;
+    height: 50%;
+	padding-left:2%;
+	margin-left: -10%;
+	margin-top: 2%;
+	padding-top: 5%;
+    background: url(img/leaf2.png);
+}
+.navbar {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    z-index: 1;
+}
+.navbar_content {
+    display: flex;
+    height: 3px;
+    width: 60%;
+    left: 10%;
+    background: #0096EC;
+    border-radius: 10px;
+}
+
+.main {
+    background: #6BFF2F;
+    width: 25%;
+    height: 3px;
+}
+
+.twin {
+    height: 3px;
+    width: 25%;
+    background: #0096EC;
+}
+
+.container_answer {
+    position: relative;
+    margin: auto;
+    width: 1095px;
+    height: 813px;
+
+    background: linear-gradient(241.84deg, #155bff 50.61%, rgba(21, 170, 255, 0) 48.73%, rgba(20, 164, 252, 0.0598291) 48.74%, #155bff 40.39%);
+    border-radius: 51px;
+    box-shadow: 5px 5px 1px 1px rgba(0, 69, 219, 0.849);
+}
+
+.text_content {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15%;
+    font-size: 22px;
+    font-family: PT Sans Caption;
+    font-style: normal;
+    line-height: 40px;
+	font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.img_answer {
+    position: relative;
+    display: inline-flex;
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+    padding: 15px;
+}
+
+.img_answer_container {
+    margin-left: 16%;
+    margin-top: -25%;
+
+}
+
+img:hover{
+    border-radius: 26px;
+    background-color: #155bff;
+    box-shadow: 7px 7px 3px 0px #004BAA;
+}
